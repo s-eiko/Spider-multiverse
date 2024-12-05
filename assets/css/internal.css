@@ -7,7 +7,7 @@
 
 .s-wrapper {
   display: flex;
-  height: 100vh;
+  height: 100%;
   flex-flow: row nowrap;
 }
 
@@ -32,14 +32,12 @@
 }
 
 .s-wrapper .s-main-content__top {
-  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .s-wrapper .s-main-content__bottom {
-  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
