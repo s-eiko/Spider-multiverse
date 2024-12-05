@@ -3,7 +3,7 @@
 ## Sobre
 Criação de um site sobre o multiverso dos filmes do Homem Aranha. Este é um desafio de projeto do bootcamp Front-end do Zero da Dio em parceria com a Ri Happy.
 
-Acesse em: https://s-eiko.github.io/Spider-multiverse/
+Acesse em: https://spider-multiverse.pages.dev/
 
 ## Ferramentas utilizadas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
