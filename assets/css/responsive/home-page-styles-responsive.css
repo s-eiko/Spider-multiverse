@@ -1,0 +1,69 @@
+@media (max-width: 420px) {
+  .s-menu .s-menu__icon {
+    width: 0;
+    display: block;
+    visibility: hidden;
+  }
+
+  .s-cards-carousel .s-card--active {
+    width: 50vw;
+  }
+
+  .s-cards-carousel .s-card__title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 715px) and (min-width: 420px) {
+  .s-menu .s-menu__icon {
+    width: 0;
+    display: block;
+    visibility: hidden;
+  }
+
+  .s-cards-carousel .s-card--active {
+    width: 40vw;
+  }
+
+  .s-cards-carousel .s-card__title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 760px) and (min-width: 715px) {
+  .s-menu .s-menu__icon {
+    width: 0;
+    display: block;
+    visibility: hidden;
+  }
+
+  .s-cards-carousel .s-card--active {
+    width: 37vw;
+  }
+
+  .s-cards-carousel .s-card__title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 840px) and (min-width: 760px) {
+  .s-menu .s-menu__icon {
+    width: 0;
+    display: block;
+    visibility: hidden;
+  }
+
+  .s-cards-carousel .s-card--active {
+    width: 35vw;
+  }
+
+  .s-cards-carousel .s-card__title {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 840px) {
+  .s-cards-carousel .s-card--active {
+    width: 30vw;
+  }
+}

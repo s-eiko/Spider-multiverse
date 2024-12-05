@@ -33,4 +33,20 @@ function selectCarouselItem(selectedButtonElement) {
   const activeButtonElement = document.querySelector('.s-controller__button--active');
   activeButtonElement.classList.remove('s-controller__button--active');
   selectedButtonElement.classList.add('s-controller__button--active');
+
+  console.log(selectedItem);
+
+  findSelectedCard(selectedItem);
+}
+
+function findSelectedCard (selectedItem) {
+  if (selectedItem == "1") {
+    var selectedCard = document.querySelector('#spider-man-01');
+  } else if (selectedItem == "2") {
+    selectedCard = document.querySelector('#spider-man-02');
+  } else selectedCard = document.querySelector('#spider-man-03');
+
+  const activeCard = document.querySelector('.s-card--active');
+  activeCard.classList.remove('s-card--active');
+  selectedCard.classList.add('s-card--active');
 }
