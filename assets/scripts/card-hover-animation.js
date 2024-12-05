@@ -1,4 +1,5 @@
 function handleMouseEnter() {
+  console.log('handle mouse enter called', this);
   this.classList.add('s-card--hovered');
   document.body.id = `${this.id}-hovered`;
 }
