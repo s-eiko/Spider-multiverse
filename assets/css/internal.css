@@ -1,14 +1,20 @@
-@import url('/assets/css/reset.css');
-@import url('/assets/css/global.css');
-@import url('/assets/css/components/_navigator.css');
-@import url('/assets/css/components/_pills.css');
-@import url('/assets/css/components/_link-button.css');
-@import url('/assets/css/components/_gallery.css');
+@import url('reset.css');
+@import url('global.css');
+@import url('components/_navigator.css');
+@import url('components/_pills.css');
+@import url('components/_link-button.css');
+@import url('components/_gallery.css');
 
 .s-wrapper {
   display: flex;
-  height: 100%;
+  height: 100vh;
   flex-flow: row nowrap;
+}
+
+.s-wrapper video {
+  position: fixed;
+  width: 100%;
+
 }
 
 .s-wrapper .s-left-column {
@@ -32,12 +38,14 @@
 }
 
 .s-wrapper .s-main-content__top {
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .s-wrapper .s-main-content__bottom {
+  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -50,20 +58,19 @@
 }
 
 .s-wrapper .s-main-content__top .s-description {
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
   max-width: 50%;
   padding: 20px;
   border-radius: 10px;
 }
 
 .s-wrapper .s-main-content__top .s-description .s-description__text p {
-  font-size: .9rem;
   color: white;
   line-height: 170%;
 }
 
 .s-wrapper .s-main-content__top .s-description .pills {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .s-wrapper .s-main-content .s-links {
@@ -93,7 +100,7 @@
 
 .s-spiderman-02-01 {
   background-image: url('../images/spiderman-andrew/movie-01/background.png');
-  background-size: cover;
+  background-size:cover;
 }
 
 .s-spiderman-02-02 {
@@ -103,7 +110,7 @@
 
 .s-spiderman-03-01 {
   background-image: url('../images/spiderman-tom/movie-01/background.png');
-  background-size: cover;
+  background-size:cover;
 }
 
 .s-spiderman-03-02 {
