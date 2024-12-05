@@ -112,6 +112,13 @@ body::before {
   margin: 0 3.75rem;
 }
 
+.s-controller__button--active {
+  background-color: white;
+  color: var(--primary-color);
+  border: 3px solid var(--primary-color);
+  outline: 2px solid white;
+}
+
 .s-controller__line {
   background-color: white;
   width: 50%;

@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spider Man | Multiverso</title>
-  <link href="../../assets/css/internal.css" rel="stylesheet" type="text/css" />
+  <link href="../../assets/css/internal.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 </head>
-
 <body>
   <div class="s-wrapper">
 
@@ -72,11 +72,15 @@
       <div class="s-main-content__bottom">
         <div class="gallery">
           <ul>
-            <li><a href="#"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png" alt=""></a></li>
-            <li><a href="#"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png" alt=""></a></li>
-            <li><a href="#"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png" alt=""></a></li>
+            <li><a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-01-full.jpg"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-01.png" alt=""></a></li>
+            <li><a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-02-full.jpg"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-02.png" alt=""></a></li>
+            <li><a data-fancybox href="../../assets/images/spiderman-tobey/movie-01/gallery/image-03-full.jpg"><img src="../../assets/images/spiderman-tobey/movie-01/gallery/image-03.png" alt=""></a></li>
           </ul>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+        Fancybox.bind('[data-fancybox]', {});
+        </script>
       </div>
     </div>
   </div>
